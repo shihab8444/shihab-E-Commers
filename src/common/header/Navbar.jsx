@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   // Toogle Menu
@@ -16,7 +16,12 @@ const Navbar = () => {
           </div>
 
           <div className='navlink'>
-            <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
+            <ul
+              className={
+                MobileMenu ? 'nav-links-MobileMenu' : 'link f_flex capitalize'
+              }
+              onClick={() => setMobileMenu(false)}
+            >
               {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
                 <Link to='/'>home</Link>
@@ -38,8 +43,15 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
-              {MobileMenu ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
+            <button
+              className='toggle'
+              onClick={() => setMobileMenu(!MobileMenu)}
+            >
+              {MobileMenu ? (
+                <i className='fas fa-times close home-btn'></i>
+              ) : (
+                <i className='fas fa-bars open'></i>
+              )}
             </button>
           </div>
         </div>

@@ -97,13 +97,13 @@ button {
   padding: 0 20px;
 }
 .category .box:hover {
-  background-color: #ffe1e6;
+  background-color: #d3eef7;
   cursor: pointer;
 }
 
 /*---------category----------*/
 .btn-primary {
-  background: #e94560;
+  background: #36d0d5;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;

@@ -1,15 +1,15 @@
 import React from 'react'
-
+import './head1.css'
 const Head = () => {
   return (
     <>
       <section className='head'>
         <div className='container d_flex'>
-          <div className='left row'>contuct us</div>
-          <div className='right row RText'>
-            <label>FAQ</label>
-            <label>Need Help?</label>
-            <label>BD</label>
+          <div className='right row RText  '>
+            <div1>
+              <span>HI </span>
+              <span>Welcome to my Website</span>
+            </div1>
           </div>
         </div>
       </section>
