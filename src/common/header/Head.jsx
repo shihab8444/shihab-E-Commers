@@ -7,7 +7,7 @@ const Head = () => {
         <div className='container d_flex'>
           <div className='right row RText  '>
             <div1>
-              <span>HI </span>
+              <span>HI! I AM SHIHAB </span>
               <span>Welcome to my Website</span>
             </div1>
           </div>
